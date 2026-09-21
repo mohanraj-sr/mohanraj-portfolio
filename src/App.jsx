@@ -323,10 +323,10 @@ export default function App() {
           />
         </div>
 
-        {/* Giant "PORTFOLIO" Backdrop Headline (Rendered AFTER with z-0 so it sits behind the image) */}
+        {/* Giant "PORTFOLIO" Backdrop Headline (Rendered AFTER with z-0 and shifted upward) */}
         <div className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none select-none px-4 sm:px-8 md:px-14 lg:px-20 xl:px-24 w-full max-w-full overflow-hidden">
           <h1
-            className="hero-reveal w-full text-center font-[900] tracking-[-0.04em] sm:tracking-[-0.035em] uppercase leading-none text-transparent bg-clip-text drop-shadow-[0_20px_35px_rgba(0,0,0,0.95)] whitespace-nowrap select-none text-[13.2vw] sm:text-[14vw] md:text-[15vw] lg:text-[15.2vw] xl:text-[15.5vw] translate-y-[-2vh] sm:translate-y-[-1vh] md:translate-y-0"
+            className="hero-reveal w-full text-center font-[900] tracking-[-0.04em] sm:tracking-[-0.035em] uppercase leading-none text-transparent bg-clip-text drop-shadow-[0_20px_35px_rgba(0,0,0,0.95)] whitespace-nowrap select-none text-[13.2vw] sm:text-[14vw] md:text-[15vw] lg:text-[15.2vw] xl:text-[15.5vw] -translate-y-4 sm:-translate-y-6 md:-translate-y-8"
             style={{
               backgroundImage:
                 'linear-gradient(180deg, #FFFFFF 0%, #D8DFE8 30%, #7B8794 65%, #181B20 98%)',
